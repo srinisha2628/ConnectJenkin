@@ -1,0 +1,10 @@
+s1={"PRITHVIRAJ","JEES","TOVINO"}
+s2={"VIJAY","SURIYA","AJITH","PRITHVIRAJ","TOVINO"}
+s3={"SRK","PRITHVIRAJ","HRITHIK","SIDHARTH"}
+s4={"YASH","RAKSHIT","PRITHVIRAJ"}
+print("UNION")
+print(s1.union(s2,s3,s4))
+print("INTERSECTION")
+print(s1.intersection(s2,s3,s4))
+print("DIFFERENCE")
+print(s1.difference(s2,s3,s4))
