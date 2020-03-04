@@ -20,8 +20,8 @@ class TestCalc(unittest.TestCase):
     def test_divop(self):
         self.assertEqual(calc.divop(10,5),2)
         self.assertEqual(calc.divop(12,-5),-3)
-        self.assertEqual(calc.divop(-54,-5),10.8)
-        self.assertEqual(calc.divop(-4,-5),0.8)
+        self.assertEqual(calc.divop(-54,-5),10)
+        self.assertEqual(calc.divop(-4,-5),1)
 
 if __name__=='__main__':
     unittest.main()
